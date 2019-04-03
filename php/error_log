@@ -1,0 +1,22 @@
+[06-Nov-2018 01:30:40 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/orandcon/public_html/pt/php/database.php on line 12
+[06-Nov-2018 01:30:42 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/orandcon/public_html/pt/php/database.php on line 12
+[06-Nov-2018 01:30:43 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/orandcon/public_html/pt/php/database.php on line 12
+[06-Nov-2018 01:30:43 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/orandcon/public_html/pt/php/database.php on line 12
+[06-Nov-2018 01:39:40 UTC] PHP Warning:  move_uploaded_file(img/69764hero-1.jpg): failed to open stream: No such file or directory in /home/orandcon/public_html/pt/php/add_product.php on line 34
+[06-Nov-2018 01:39:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpNJQPdC' to 'img/69764hero-1.jpg' in /home/orandcon/public_html/pt/php/add_product.php on line 34
+[06-Nov-2018 01:46:45 UTC] PHP Warning:  move_uploaded_file(img/28446hero-1.jpg): failed to open stream: No such file or directory in /home/orandcon/public_html/pt/php/add_product.php on line 34
+[06-Nov-2018 01:46:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php7MgeX9' to 'img/28446hero-1.jpg' in /home/orandcon/public_html/pt/php/add_product.php on line 34
+[06-Nov-2018 05:27:23 UTC] PHP Warning:  unlink(../): Is a directory in /home/orandcon/public_html/pt/php/delete_category.php on line 15
+[06-Nov-2018 05:30:22 UTC] PHP Warning:  unlink(../): Is a directory in /home/orandcon/public_html/pt/php/delete_category.php on line 15
+[06-Nov-2018 05:35:42 UTC] PHP Warning:  unlink(./img/hero-1.jpg): No such file or directory in /home/orandcon/public_html/pt/php/delete_product.php on line 11
+[06-Nov-2018 05:36:42 UTC] PHP Warning:  unlink(./img/hero-1.jpg): No such file or directory in /home/orandcon/public_html/pt/php/delete_product.php on line 11
+[06-Nov-2018 05:37:50 UTC] PHP Warning:  unlink(img/hero-1.jpg): No such file or directory in /home/orandcon/public_html/pt/php/delete_product.php on line 11
+[06-Nov-2018 05:40:08 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/orandcon/public_html/pt/php/delete_category.php on line 9
+[06-Nov-2018 05:41:45 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/orandcon/public_html/pt/php/delete_category.php on line 9
+[06-Nov-2018 05:42:52 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/orandcon/public_html/pt/php/delete_category.php on line 9
+[06-Nov-2018 05:46:55 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/orandcon/public_html/pt/php/delete_category.php on line 9
+[06-Nov-2018 05:49:05 UTC] PHP Warning:  unlink(../): Is a directory in /home/orandcon/public_html/pt/php/delete_category.php on line 12
+[06-Nov-2018 05:49:09 UTC] PHP Warning:  unlink(../): Is a directory in /home/orandcon/public_html/pt/php/delete_category.php on line 12
+[06-Nov-2018 06:00:06 UTC] PHP Warning:  unlink(../img/hero-1.jpg): No such file or directory in /home/orandcon/public_html/pt/php/delete_product.php on line 11
+[06-Nov-2018 06:09:10 UTC] PHP Warning:  unlink(): No such file or directory in /home/orandcon/public_html/pt/php/delete_menu.php on line 18
+[06-Nov-2018 10:58:41 UTC] PHP Fatal error:  Call to undefined function makeProductHtml() in /home/orandcon/public_html/pt/php/show_color.php on line 17

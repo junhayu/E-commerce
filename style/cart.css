@@ -1,0 +1,60 @@
+.modal-dialog {
+   position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 350px;
+   overflow: auto;
+   overflow-y: auto;
+   margin-top:0;
+   margin-bottom:0;
+}
+
+.sideCartRow {
+    box-sizing: border-box;
+    padding: 24px 0 22px;
+    border-bottom: 1px solid #f1f1f2;
+    display: flex;
+}
+.sideCartDesc {
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: calc(100% - 105px);
+    font-size: 14px;
+}
+.title {
+	margin-bottom:18px;
+}
+.totalPrice {
+    width: calc(100% - 135px);
+    float: right;
+	font-size: 14px;
+    line-height: 24px;
+	font-family: 'ITCAvantGardeStdDemi', Helvetica, Arial, sans-serif;
+}
+#productQuantity{
+	width:50%;
+}
+.sideCartDescRight {
+    text-align: right;
+	font-family: 'ITCAvantGardeStdDemi', Helvetica, Arial, sans-serif;
+}
+.modal-content {
+	flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    display: flex;
+	box-shadow:0 0 0;
+	border: 0;
+}
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.fade {
+	opacity : 1;
+}
+.modal-title {
+	font-size:20px;
+}

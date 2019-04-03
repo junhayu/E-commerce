@@ -1,0 +1,44 @@
+.pageProduct
+	{
+		margin : 0 auto;
+		width:490px;
+		height:360px;
+		
+	}
+		.prodDetails{
+			float: left;
+			text-align:center;
+		}
+		.u-imgWrap {
+			float: left;
+			margin-right:5%;
+		}
+		.pageProduct div {
+			display:block;
+		}
+		.prodDetails .atcBtn {
+    height: 56px;
+    float: right;
+    padding: 15px 20px;
+}
+.s-primaryBtn {
+    background-color: #ee2e24;
+    color: #fff;
+    border: 2px solid #ee2e24;
+}
+
+.prodDetails .prodName {
+    font-size: 22px;
+    font-family: 'ITCAvantGardeStdDemi', Helvetica, Arial, sans-serif;
+    line-height: 40px;
+}
+.prodDetails .prodPrice {
+    font-size: 22px;
+    padding: 22px 0 23px;
+}
+.qt-area i.fa:hover {
+	color:black;
+}
+.qt-area i.fa:hover{
+	color:black;
+}
