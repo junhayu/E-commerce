@@ -4,7 +4,7 @@
 $host = "localhost";
 $user = "root";
 $pswd = "root";
-$dbnm = "e-commerce"; 
+$dbnm = "ecommerce"; 
 
 //mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $conn = new mysqli($host, $user, $pswd);
@@ -29,8 +29,9 @@ else
 	
 	//$root =  $_SERVER["DOCUMENT_ROOT"];
 	$root = dirname(__FILE__); 
-	$createTablesQuery = file_get_contents($root.'/sql/e-commerce.sql');
-	$conn->multi_query($createTablesQuery) or die("Failed to execute a sql script from a file: " . mysqli_error());
+	$createTablesQuery = file_get_contents($root.'/sql/ecommerce.sql');
+	mysqli_multi_query($conn,$createTablesQuery) or die("Failed to execute a sql script from a file: " . mysqli_error());
+	 while (mysqli_next_result($conn));
 }
 
 ?>
