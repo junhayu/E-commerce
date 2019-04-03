@@ -1,4 +1,4 @@
-# e-commerce
+# E-commerce
 Self-study project to learn Vue.js
 
 It uses MYSQL.
